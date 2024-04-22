@@ -9,7 +9,8 @@ function App() {
     <div className="body">
         <NavComponent />
         <ImageComponent />
-        <ButtonComponent />
+        <ButtonComponent id='btn1' />
+        <ButtonComponent id='btn2' />
     </div>
   );
 }
