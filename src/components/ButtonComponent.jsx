@@ -1,9 +1,9 @@
-function ButtonComponent() {
+function ButtonComponent({id, text, onClick}) {
     return (
 <>
-<button>Press</button>
+<button id={id} onClick={onClick}>{text}</button>
 </>
     )
 }
 
-export default (ButtonComponent)
+export default ButtonComponent

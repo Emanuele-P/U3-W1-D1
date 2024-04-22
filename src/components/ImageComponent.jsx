@@ -1,13 +1,12 @@
-import img from '../assets/img2.jpg'
-
-function ImageComponent() {
+function ImageComponent({src}) {
+    
     return (
 <>
 <div className="img-wrapper">
-<img className='main-img' src={img} alt="" />
+<img className='main-img' src={src} alt="" />
 </div>
 </>
     )
 }
 
-export default (ImageComponent)
+export default ImageComponent
